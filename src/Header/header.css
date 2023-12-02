@@ -1,0 +1,246 @@
+/* header.css */
+
+/* Header */
+.navbar {
+    background-color: rgb(210, 194, 172); /* Corrected background color value */
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar{
+    
+        display: flex;
+        flex-direction: row;
+    
+  }
+  /* Logo */
+  .logo {
+    display: block;
+    border-radius: inherit;
+    object-position: center center;
+    object-fit: contain;
+    image-rendering: auto;
+  }
+  
+  /* Logo Image */
+  .logo-img {
+    max-width: 65px; /* Adjust the size as needed */
+  }
+  
+  /* Navigation Links */
+  nav ul {
+    font-size: large;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-right: -3px;
+    gap: 28px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    gap: 16px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: rgb(129, 24, 158);
+  }
+  
+  nav ul li a[href="#buy-template"] {
+    background-color: transparent;
+    border: 1px solid #bcb0b0;
+    padding: 8px 16px;
+    border-radius: 3px;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  nav ul li a[href="#buy-template"]:hover {
+    background-color: white; /* Change background color on hover */
+    border-color: blue; /* Add blue border on hover */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  /* header.css */
+
+/* ... (other styles) ... */
+
+/* Hamburger Menu Styles */
+.menu-toggle {
+    display: none; /* Hide the hamburger menu by default */
+    cursor: pointer;
+  }
+  
+  .menu-toggle .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30px;
+    height: 25px;
+    position: relative;
+  }
+  
+  .menu-toggle .hamburger .line {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .menu-toggle .hamburger.active .line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .menu-toggle .hamburger.active .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-toggle .hamburger.active .line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  /* Navigation Container Styles */
+  .nav-container {
+    display: flex;
+    justify-content: flex-end; /* Align the navigation to the right */
+    align-items: center;
+  }
+  
+  /* Media query for smaller screens */
+  /* ... (other styles) ... */
+
+/* Media query for smaller screens */
+/* ... (other styles) ... */
+
+/* Media query for smaller screens */
+@media (max-width: 840px) {
+    .navbar {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .menu-toggle {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul {
+      display: none; /* Hide navigation links by default on smaller screens */
+      flex-direction: column; /* Display links in a column */
+      text-align: center;
+      padding: 0;
+    }
+  
+    nav.nav-active ul {
+      display: flex; /* Show the links when menu is active */
+      flex-direction: column; /* Align links in a column */
+    }
+  
+    .logo {
+      display: flex;
+      justify-content: center; /* Align logo to center */
+      margin-bottom: 20px; /* Add spacing between logo and links */
+    }
+  }
+  .welcome-container {
+    border: 1px solid #ccc; /* Border style */
+    background-color: white; /* Background color */
+    /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 20px; /* Space below the welcome message */
+    position: absolute;
+    left: 40%;
+    
+  }
+  
+  /* Welcome Message Text */
+  .welcome-message {
+    font-weight: bold; /* Bold text */
+    font-size: 14px; /* Adjust font size */
+    color: rgb(58, 58, 216)c0c; /* Text color */
+  }
+  .strategic-text {
+    display: flex;
+    font-size: 53px;
+    text-align: center;
+    margin-top: 75px;
+    flex-direction: column;
+    align-items: center;
+}
+  
+  /* Strategic Word */
+  .strategic-word {
+    color: orange; /* Orange color for the word "Strategic" */
+    font-size: 1.5em; /* Adjust font size as needed */
+    font-weight: bold; /* Bold text */
+  }
+  .p{
+    color: grey;
+    
+    display: flex;
+    
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+  .buttons-container {
+    display: flex;
+    justify-content: center; /* Center align the buttons */
+    gap: 20px; /* Adjust spacing between buttons */
+  }
+  
+  /* Buttons Styles */
+  .btn {
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+  }
+  
+  .get-started {
+    background-color: #c300ff; /* Blue color for Get Started button */
+    color: white;
+  }
+  
+  .watch-demo {
+    background-color: transparent;
+    border: 2px solid #793be3; /* Blue border for Watch Demo button */
+    color: #3131b8;
+  }
+  .get-started:hover {
+    background-color: #6317b9; /* Darker shade of blue on hover */
+  }
+  
+  /* Hover effect for Watch Demo button */
+  .watch-demo:hover {
+    border-color: #0056b3; /* Darker shade of blue on hover for border */
+  }
+  .image {
+    width: 95vw; /* Set width to the viewport width */
+    height: auto;
+    overflow: hidden; /* Ensures the image doesn't overflow its container */
+    position: relative; /* Needed for absolute positioning of overlay content */
+}
+
+/* Image Styling */
+.sample-image {
+    width: 100%; /* Image takes full width of its container */
+    height: auto;
+    transition: transform 0.3s ease-in-out; /* Adding transition for smooth scaling */
+}
+
+/* Hover Effect for Image */
+.sample-image:hover {
+    transform: scale(0.9); /* Scale down the image on hover */
+}

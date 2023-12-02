@@ -1,10 +1,16 @@
+/* Your CSS file */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--token-25b49406-73f2-421a-adb7-81b18f488918);
+  color: var(--token-d23dd5a9-b486-4fa3-8394-2cd7943f28da);
+}
+
+/* Apply color to specific elements */
+.someElement {
+  background-color: var(--token-20257545-130a-452b-8942-48d79a1f3d66);
+}
+
+.anotherElement {
+  border: 1px solid var(--token-bbe70a49-69b1-4663-bb59-db1309f939d9);
 }
 
 code {

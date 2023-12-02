@@ -1,0 +1,167 @@
+.pricingSection {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .pricingHeading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .pricingSubheading {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .pricing-plans {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  .pricing-plan {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .pricing-plan:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing-plan h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-plan h3 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .pricing-plan h3 span {
+    font-size: 0.8em;
+    color: #888;
+  }
+  
+  .pricing-plan ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-plan li {
+    margin-bottom: 8px;
+  }
+  
+  .get-started-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-started-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* price.css */
+
+/* General styles */
+.pricingSection {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pricingHeading {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.pricingContent {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.pricingSubheading {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Pricing plans */
+.pricing-plans {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pricing-plan {
+  flex: 1;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-plan h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.pricing-plan h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.pricing-plan ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.pricing-plan ul li {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.get-started-button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.get-started-button:hover {
+  background-color: #0056b3;
+}

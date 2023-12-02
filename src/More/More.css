@@ -1,0 +1,74 @@
+/* More.css */
+
+/* More.css */
+
+.more-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+    height: fit-content;
+    background-color: rgb(34, 33, 33);
+  }
+  
+  .rounded-bar {
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .rounded-bar h2 {
+    position: relative;
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  .features-heading p{
+    position: relative;
+    color: grey;
+    padding-left: 2%;
+  }
+  .features-heading {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .features-heading h2 {
+    color: white;
+    font-size: 50px;
+    text-align: justify;
+  }
+  
+  .orange-text {
+    color: orange;
+  }
+  .flex-item{
+    background-color: rgb(40, 39, 39);
+    padding: 20px;
+    border-radius: 10%;
+  }
+  .flex-containers{
+    display: flex;
+    gap:10px;
+    height: 30vh;
+  }
+  .flex-item h3{
+    top:40%;
+    color:white;
+  }
+  .flex-item p{
+    color:rgb(237, 231, 231);
+  }
+  #svg-templates {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+  }
+  

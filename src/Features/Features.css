@@ -1,0 +1,175 @@
+/* Features.css */
+
+/* General styles for the features container */
+.features-container {
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 50px;
+    background-color: #f8f8f8;
+  }
+  
+  .features-heading {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .features-heading h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .features-heading p {
+    font-size: 18px;
+    color: #6d6c6c;
+  }
+  
+  .product-capabilities {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .product-capabilities h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .product-capabilities p {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.6;
+  }
+  
+  .orange-text {
+    color: orange;
+  }
+  
+  /* Feature box styles */
+  .feature-box {
+    gap:20px;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-box {
+    flex: 1;
+    padding: 30px;
+    background-color: rgb(175, 136, 175);
+  }
+  
+  .text-box h2 {
+    margin-left: 10px;
+    position: relative;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .text-box p {
+    position: relative;
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .image-box {
+    flex: 1;
+    position: relative;
+  }
+  
+  .image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0 10px 10px 0;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  
+  
+  
+  /* Features.css */
+
+.features-container {
+  /* Your existing styles */
+}
+
+/* Flexbox styles */
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px; /* Adjust margin as needed */
+  gap: 10px;
+    height: fit-content;
+}
+
+.flex-item {
+  text-align: center;
+}
+
+.flex-item img {
+  width: 100%; /* Adjust image width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.flex-item h3 {
+  margin-top: 10px; /* Adjust spacing */
+  font-size: 18px; /* Adjust font size */
+  color: #333; /* Adjust text color */
+}
+/* Features.css */
+
+/* ... Your existing styles ... */
+
+/* Feature box styles */
+.feature-box {
+  gap: 20px;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-box {
+  flex: 1;
+  padding: 30px;
+  background-color: rgb(175, 136, 175);
+  transition: background-color 0.3s ease-in-out; /* Add transition */
+}
+
+.text-box h2 {
+  margin-left: 10px;
+  position: relative;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.text-box p {
+  position: relative;
+  color: #666;
+  font-size: 16px;
+}
+
+.image-box {
+  flex: 1;
+  position: relative;
+  overflow: hidden; /* Hide overflowing elements */
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0 10px 10px 0;
+  transition: transform 0.3s ease-in-out; /* Add transition */
+}
+
+/* Hover effect */
+.feature-box:hover .text-box {
+  background-color: #cf9acf; /* Change background color on hover */
+}
+
+.feature-box:hover .image-box img {
+  transform: scale(1.05); /* Increase scale on hover */
+}
